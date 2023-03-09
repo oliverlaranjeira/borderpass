@@ -1,0 +1,25 @@
+.required {
+    color: red;
+  }
+
+.container {
+    position: relative;
+    padding-bottom: 75px;
+}
+
+.pagination{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 10px;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.submit{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 10px;
+}

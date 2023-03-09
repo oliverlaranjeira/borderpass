@@ -1,0 +1,72 @@
+[
+    {
+      "id": 1,
+      "question": "What is your name?",
+      "type": "text",
+      "required": true
+    },
+    {
+      "id": 2,
+      "question": "What is your favorite color?",
+      "type": "dropdown",
+      "required": false,
+      "options": [
+        {
+          "label": "Red",
+          "value": "red"
+        },
+        {
+          "label": "Green",
+          "value": "green"
+        },
+        {
+          "label": "Blue",
+          "value": "blue"
+        },
+        {
+          "label": "Other",
+          "value": "other"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "What is your favorite animal?",
+      "type": "radio",
+      "required": true,
+      "options": [
+        {
+          "label": "Cat",
+          "value": "cat"
+        },
+        {
+          "label": "Dog",
+          "value": "dog"
+        },
+        {
+          "label": "Panda",
+          "value": "panda"
+        },
+        {
+          "label": "Bird",
+          "value": "bird"
+        },
+        {
+          "label": "Other",
+          "value": "Other"
+        }
+      ]
+    },
+    {
+        "id": 4,
+        "question": "Upload a picture to celebrate this occasion!",
+        "type": "file",
+        "required": false
+    },
+    {
+        "id": 5,
+        "question": "Give this a rating!",
+        "type": "rating",
+        "required": false
+    }
+  ]
